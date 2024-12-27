@@ -61,6 +61,7 @@ article > h1{
     text-align: left;
     color: darkgreen;
     width: 100%;
+    height: auto;
 }
 article>h2{
     font-family: android;
