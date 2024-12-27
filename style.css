@@ -48,7 +48,7 @@ nav > a:hover{
 /*corpo*/
 main{
     max-width: 800px;
-    min-width: 500px;
+    min-width: 350px;
     margin: auto;
     padding: 1% 0px;
     background-color: white;
@@ -59,14 +59,14 @@ p {
 }
 article > h1{
     font-family: android;
-    text-indent: 0%;
+    text-indent: 1em;
     text-align: left;
     color: darkgreen;
 }
 article>h2{
     font-family: android;
     font-size: 20px;
-    text-indent: 0%;
+    text-indent: 1em;
     text-align: left;
     color: darkgreen;
     background-image: linear-gradient(to right, rgba(8, 189, 77, 0.26), transparent);
@@ -74,7 +74,6 @@ article>h2{
 picture> img{
     width: 100%;
     height: auto;
-    margin: 7px;
 }
 #especial{
     width: 50%;
