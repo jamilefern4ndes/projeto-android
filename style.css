@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url('idroid.otf')format('Opentype');
+}
+
+*{
+    text-indent: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+body{
+    text-align: justify;
+    font-size: 17px;
+    margin: 0%;
+    background-color: khaki;
+}
+header{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+    color: white;
+    background-image: linear-gradient(to top, rgb(15, 58, 15), rgb(5, 139, 5));
+}
+header>h1{
+    margin: 5px;
+}
+header>p{
+    padding:0%;
+    padding-bottom: 1%;
+    margin-top: 5px;
+    margin-bottom: 0%;
+}
+nav{
+    padding: 1% 0%;
+    background-color: rgb(15, 58, 15);
+}
+nav>a{
+    color: aliceblue;
+    padding: 2px;
+    margin-right: 1em;
+    text-decoration: none;
+}
+nav > a:hover{
+    background-color: rgba(5, 151, 5, 0.562);
+}
+/*corpo*/
+main{
+    max-width: 800px;
+    min-width: 500px;
+    margin: auto;
+    padding: 1% 0px;
+    background-color: white;
+    margin-bottom: 0%;
+}
+p {
+    margin: 10px;
+}
+article > h1{
+    font-family: android;
+    text-indent: 0%;
+    text-align: left;
+    color: darkgreen;
+}
+article>h2{
+    font-family: android;
+    font-size: 20px;
+    text-indent: 0%;
+    text-align: left;
+    color: darkgreen;
+    background-image: linear-gradient(to right, rgba(8, 189, 77, 0.26), transparent);
+}
+picture> img{
+    width: 100%;
+    height: auto;
+    margin: 7px;
+}
+#especial{
+    width: 50%;
+    height: auto;
+}
+
+aside{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(109, 214, 109, 0.747);
+    padding-bottom: 4px;
+    border-radius: 7px;
+}
+aside > h2 {
+    border-radius: 7px 7px 0px 0px;
+    text-indent: 0%;
+    width: 100%;
+    background-color: rgb(22, 153, 5);
+    font-weight: 400;
+}
+aside > ul{
+    columns: 2;
+    column-gap: 20px;
+    list-style:none;
+}
+footer{
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}
+footer>p{
+    margin: 0%;
+    margin-top: 2px;
+}
