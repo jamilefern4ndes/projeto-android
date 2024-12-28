@@ -56,10 +56,14 @@ main{
 p {
     margin: 10px;
 }
+article{
+    width: 100%;
+}
 article > h1{
     font-family: android;
     text-indent: 1em;
     color: darkgreen;
+    font-size: 5vw;
 
 }
 article>h2{
@@ -77,6 +81,14 @@ picture> img{
 #especial{
     width: 50%;
     height: auto;
+}
+.video{
+    align-content: center;
+    background-color: rgb(15, 58, 15);
+    margin: auto;
+}
+iframe{
+    margin: auto;
 }
 
 aside{
