@@ -59,9 +59,7 @@ p {
 article > h1{
     font-family: android;
     text-indent: 1em;
-    text-align: left;
     color: darkgreen;
-    white-space: nowrap;
 
 }
 article>h2{
