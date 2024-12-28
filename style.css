@@ -34,7 +34,7 @@ nav{
     padding: 1% 0%;
     background-color: rgb(15, 58, 15);
     width: 100%;
-    white-space: nowrap;
+
 }
 nav>a{
     color: aliceblue;
@@ -61,8 +61,8 @@ article > h1{
     text-indent: 1em;
     text-align: left;
     color: darkgreen;
-    max-width: 100%;
-    white-space: nowrap;
+    max-width: 350px;
+
 }
 article>h2{
     font-family: android;
