@@ -31,14 +31,14 @@ header>p{
     margin-bottom: 0%;
 }
 nav{
+
     padding: 1% 0%;
     background-color: rgb(15, 58, 15);
-    width: 100%;
 
 }
 nav>a{
     color: aliceblue;
-    padding: 5px;
+    padding-right: 10px;
     text-decoration: none;
 
 }
